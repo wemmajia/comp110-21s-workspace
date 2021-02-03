@@ -13,3 +13,16 @@ from random import randint
 
 
 # Begin your solution here...
+x: int = randint(0, 2)
+
+print("Your fortune cookie says...")
+
+if x == 0:
+    print("A beautiful, smart, and loving person will be coming into your life.")
+else:
+    if x == 1:
+        print("Your life will be happy and peaceful.")
+    else:
+        print("Soon life will become more interesting.")
+
+print("Now, go spread positive vibes!")
